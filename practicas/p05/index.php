@@ -59,6 +59,19 @@ echo $oracion2.'<br>';
 echo $oracion3.'<br>';
 echo '<br>';
 echo '<br>';
+
+echo '<h1>Ejercicio 2</h1>'; ////Para poner Titulos, subtitulos
+$a = "ManejadorSQL";
+$b = 'MySQL';
+$c = &$a; 
+
+$oracion = "Valor de \$a es  $a";
+$oracion2 = "Valor de \$b es $b";
+$oracion3 = "Valor de \$c es $c"; 
+
+echo '<p>' . $oracion . '</p>';
+echo '<p>' . $oracion2 . '</p>';
+echo '<p>' . $oracion3 . '</p>';
 ///////////////////////////////////////////////////////////////////////////////////////////////
 
 $a = "PHP server";
@@ -191,15 +204,20 @@ var_dump($f);
 //////////////////////////////////////////////////////////////////////////////
 echo '<h1>Ejercicio 7</h1>';
 // a. La versión de Apache y PHP
-echo "Versión de PHP: " . phpversion() . "\n";
-echo "Versión de Apache: " . $_SERVER['SERVER_SOFTWARE'] . "\n";
+echo "Versión de PHP: " . phpversion();
+echo '<br>'; 
+echo "Versión de Apache: " . $_SERVER['SERVER_SOFTWARE'];
+echo '<br>'; 
 
 // b. El nombre del sistema operativo (servidor)
-echo "Sistema Operativo del Servidor: " . PHP_OS . "\n";
+echo "Sistema Operativo del Servidor: " . PHP_OS;
+echo '<br>'; 
 
 // c. El idioma del navegador (cliente)
 if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-    echo "Idioma del Navegador: " . $_SERVER['HTTP_ACCEPT_LANGUAGE'] . "\n";
+    echo "Idioma del Navegador: " . $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+    echo '<br>'; 
 } else {
-    echo "Idioma del Navegador no disponible\n";
+    echo "Idioma del Navegador no disponible;
+    echo '<br>'; 
 }
