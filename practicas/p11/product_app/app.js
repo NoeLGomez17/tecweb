@@ -50,8 +50,12 @@ function buscarProducto(e) {
             });
         }
     };
-    client.send("search=" + searchValue); // Enviar término de búsqueda
+    //client.send("search=" + searchValue); // Enviar término de búsqueda
+    client.send("search=" + encodeURIComponent(searchValue)); // Envía la búsqueda
 }
+
+
+
 
 // FUNCIÓN "Agregar Producto"
 function agregarProducto(e) {
