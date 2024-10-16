@@ -53,7 +53,7 @@ function buscarProducto(e) {
     client.send("search=" + searchValue); // Enviar término de búsqueda
 }
 
-// FUNCIÓN CALLBACK DE BOTÓN "Agregar Producto"
+// FUNCIÓN "Agregar Producto"
 function agregarProducto(e) {
     e.preventDefault();
 
@@ -106,10 +106,10 @@ function agregarProducto(e) {
         return;
     }
 
-    // Agregar el nombre al JSON
+    
     finalJSON['nombre'] = nombreProducto;
 
-    // Convertir de vuelta a string
+
     productoJsonString = JSON.stringify(finalJSON);
 
     var client = getXMLHttpRequest();
@@ -120,9 +120,9 @@ function agregarProducto(e) {
             var response = JSON.parse(client.responseText);
 
             if (response.error) {
-                window.alert(response.error);  // Mostrar mensaje de error si el producto ya existe
+                window.alert(response.error);  
             } else if (response.success) {
-                window.alert(response.success);  // Mostrar mensaje de éxito si el producto fue insertado correctamente
+                window.alert(response.success);  
             }
         }
     };
@@ -131,7 +131,7 @@ function agregarProducto(e) {
 
 
 
-// SE CREA EL OBJETO DE CONEXIÓN COMPATIBLE CON EL NAVEGADOR
+
 function getXMLHttpRequest() {
     var objetoAjax;
 
@@ -151,7 +151,7 @@ function getXMLHttpRequest() {
     return objetoAjax;
 }
 
-// INICIALIZACIÓN DEL FORMULARIO
+
 function init() {
     var JsonString = JSON.stringify(baseJSON, null, 2);
     document.getElementById("description").value = JsonString;
