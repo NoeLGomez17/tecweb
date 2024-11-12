@@ -1,0 +1,15 @@
+{
+    "name": "noe/product_app",
+    "description": "Composer P13",
+    "autoload": {
+        "psr-4": {
+            "Noe\\ProductApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Noe"
+        }
+    ],
+    "require": {}
+}
