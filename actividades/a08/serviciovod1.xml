@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CatalogoVOD>
+    <cuenta>
+        <correo>lariosgomeznoe@gmail.com</correo>
+        <perfiles>
+            <perfil>
+                <usuario>David</usuario>
+                <idioma>Español</idioma>
+            </perfil>
+            <perfil>
+                <usuario>Emanuel</usuario>
+                <idioma>Español</idioma>
+            </perfil>
+            <perfil>
+                <usuario>Luis</usuario>
+                <idioma>Español</idioma>
+            </perfil>
+        </perfiles>
+    </cuenta>
+
+    <contenido>
+        <peliculas>
+            <genero>
+                <nombre> Romance </nombre>                           <!-- Romance -->
+                <titulo>
+                    <nombre>Rojo, blanco y sangre azul</nombre>
+                    <duracion>2 horas 30 minutos</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Corazones malheridos</nombre>
+                    <duracion>2 horas 30 minutos</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>La vida invisible de Addie Laure</nombre>
+                    <duracion>2 horas</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Yo soy Simon</nombre>
+                    <duracion>2 horas</duracion>
+                </titulo>
+            </genero>
+            <genero>
+                <nombre> Accion </nombre>                        <!-- Accion -->
+                <titulo>
+                    <nombre>Avengers</nombre>
+                    <duracion>2 horas 30 minutos</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Rapidos y Furiosos</nombre>
+                    <duracion>2 horas 30 minutos</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Spider-Man</nombre>
+                    <duracion>2 horas</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>La guerra del mañana</nombre>
+                    <duracion>2 horas</duracion>
+                </titulo>
+            </genero>
+        </peliculas>
+
+
+        <programas>
+            <genero>
+                <nombre> Comedia </nombre>                                   <!--Comedia  -->
+                <titulo>
+                    <nombre>The big bang theory</nombre>
+                    <duracion>12 temporadas</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Drake y Josh</nombre>
+                    <duracion>4 temporadas</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>¡Carly</nombre>
+                    <duracion>6 temporadas</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Los Simpsons</nombre>
+                    <duracion>36 temporadas</duracion>
+                </titulo>
+            </genero>
+            <genero>
+                <nombre> Animacion </nombre>                           <!--Animacion  -->
+                <titulo>
+                    <nombre>Scobby Doo</nombre>
+                    <duracion>2 temporadas</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Spy x family</nombre>
+                    <duracion>2 temporadas</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Kaiju No 8</nombre>
+                    <duracion>1 temporada</duracion>
+                </titulo>
+                <titulo>
+                    <nombre>Demon slayer</nombre>
+                    <duracion>4 temporadas</duracion>
+                </titulo>
+            </genero>
+
+        </programas>
+    </contenido>
+
+</CatalogoVOD>
