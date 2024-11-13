@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CatalogoVOD>
+    <cuenta correo="lariosgomeznoe@gmail">
+        <perfiles>
+            <perfil usuario="David" idioma="Español" />
+            <perfil usuario='Emanuel' idioma='Español' />
+            <perfil usuario="Luis" idioma='Español' />
+        </perfiles>
+    </cuenta>
+
+    <contenido>
+        <peliculas>
+            <genero Nombre="Romance">
+                <titulo nombre="Rojo, blanco y sangre azul" duracion="2 horas 30 minutos" />
+                <titulo nombre="Corazones malheridos" duracion="2 horas 30 minutos" />
+                <titulo nombre="La vida invisible de Addie Laure" duracion="2 horas" />
+                <titulo nombre="Yo soy Simon" duracion="2 horas" />
+            </genero>
+            <genero Nombre="Accion">
+                <titulo nombre="Avengers" duracion="2 hora 30 minutos" />
+                <titulo nombre="Rapidos y Furiosos" duracion="2 horas 30 minutos" />
+                <titulo nombre="Spider-Man" duracion="2 horas" />
+                <titulo nombre="La guerra del mañana" duracion="2 horas" />
+            </genero>
+        </peliculas>
+
+        <programas>
+            <genero Nombre="Comedia">
+                <titulo nombre="The big bang theory" duracion="12 temporadas" />
+                <titulo nombre="Drake y Josh" duracion="4 temporadas" />
+                <titulo nombre="¡Carly" duracion="6 temporadas" />
+                <titulo nombre="Los Simpsons" duracion="36 temporadas" />
+            </genero>
+            <genero Nombre="Animacion">
+                <titulo nombre="Scobby Doo" duracion="2 temporadas" />
+                <titulo nombre="Spy x family" duracion="2 temporadas" />
+                <titulo nombre="Kaiju No 8" duracion="1 temporada" />
+                <titulo nombre="Demon slayer" duracion="4 temporadas" />
+            </genero>
+        </programas>
+    </contenido>
+
+</CatalogoVOD>
